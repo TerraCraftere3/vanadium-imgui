@@ -172,20 +172,7 @@ How to help
 - See [Help wanted](https://github.com/ocornut/imgui/wiki/Help-Wanted) on the [Wiki](https://github.com/ocornut/imgui/wiki/) for some more ideas.
 - Have your company financially support this project with invoiced sponsoring/support contracts or by buying a license for [Dear ImGui Test Engine](https://github.com/ocornut/imgui_test_engine) (please reach out: contact at dearimgui dot com).
 
-Sponsors
---------
-
-Ongoing Dear ImGui development is and has been financially supported by users and private sponsors.
-<BR>Please see the **[detailed list of current and past Dear ImGui supporters](https://github.com/ocornut/imgui/wiki/Sponsors)** for details.
-<BR>From November 2014 to December 2019, ongoing development has also been financially supported by its users on Patreon and through individual donations.
-
-**THANK YOU to all past and present supporters for helping to keep this project alive and thriving!**
-
-Dear ImGui is using software and services provided free of charge for open source projects:
-- [PVS-Studio](https://www.viva64.com/en/b/0570/) for static analysis.
-- [GitHub actions](https://github.com/features/actions) for continuous integration systems.
-- [OpenCppCoverage](https://github.com/OpenCppCoverage/OpenCppCoverage) for code coverage analysis.
-
+-------
 Credits
 -------
 
@@ -195,8 +182,7 @@ Recurring contributors (2022): Omar Cornut [@ocornut](https://github.com/ocornut
 
 Sponsoring, support contracts and other B2B transactions are hosted and handled by [Lizardcube](https://www.lizardcube.com).
 
-Omar: "I first discovered the IMGUI paradigm at [Q-Games](https://www.q-games.com) where Atman Binstock had dropped his own simple implementation in the codebase, which I spent quite some time improving and thinking about. It turned out that Atman was exposed to the concept directly by working with Casey. When I moved to Media Molecule I rewrote a new library trying to overcome the flaws and limitations of the first one I've worked with. It became this library and since then I have spent an unreasonable amount of time iterating and improving it."
-
+Omar: "I first discovered the IMGUI paradigm at [Q-Games](https://www.q-games.com) where Atman Binstock had dropped his own simple implementation in the codebase, which I spent quite some time improving and thinking about. It turned out that Atman was exposed to the concept 
 Embeds [ProggyClean.ttf](http://upperbounds.net) font by Tristan Grimmer (MIT license).
 <br>Embeds [stb_textedit.h, stb_truetype.h, stb_rect_pack.h](https://github.com/nothings/stb/) by Sean Barrett (public domain).
 

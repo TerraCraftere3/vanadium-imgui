@@ -7,20 +7,14 @@ Vanadium ImGui
 
 [![Build Status](https://github.com/ocornut/imgui/workflows/build/badge.svg)](https://github.com/ocornut/imgui/actions?workflow=build) [![Static Analysis Status](https://github.com/ocornut/imgui/workflows/static-analysis/badge.svg)](https://github.com/ocornut/imgui/actions?workflow=static-analysis) [![Tests Status](https://github.com/ocornut/imgui_test_engine/workflows/tests/badge.svg)](https://github.com/ocornut/imgui_test_engine/actions?workflow=tests)
 
-<sub>(This library is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added. If your company is using Dear ImGui, please consider reaching out.)</sub>
-
-Businesses: support continued development and maintenance via invoiced sponsoring/support contracts:
-<br>&nbsp;&nbsp;_E-mail: contact @ dearimgui dot com_
-<br>Individuals: support continued development and maintenance [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WGHNC6MBFLZ2S). Also see [Sponsors](https://github.com/ocornut/imgui/wiki/Sponsors) page.
-
 | [The Pitch](#the-pitch) - [Usage](#usage) - [How it works](#how-it-works) - [Releases & Changelogs](#releases--changelogs) - [Demo](#demo) - [Integration](#integration) |
 :----------------------------------------------------------: |
-| [Gallery](#gallery) - [Support, FAQ](#support-frequently-asked-questions-faq) -  [How to help](#how-to-help) - [Sponsors](https://github.com/ocornut/imgui/wiki/Sponsors) - [Credits](#credits) - [License](#license) |
-| [Wiki](https://github.com/ocornut/imgui/wiki) - [Languages & frameworks backends/bindings](https://github.com/ocornut/imgui/wiki/Bindings) - [Software using Dear ImGui](https://github.com/ocornut/imgui/wiki/Software-using-dear-imgui) - [User quotes](https://github.com/ocornut/imgui/wiki/Quotes) |
+| [Gallery](#gallery) - [Support, FAQ](#support-frequently-asked-questions-faq) -  [How to help](#how-to-help) - [License](#license) |
+| [Wiki](https://github.com/ocornut/imgui/wiki) - [Languages & frameworks backends/bindings](https://github.com/ocornut/imgui/wiki/Bindings) - [Software using Vanadium ImGui](https://github.com/ocornut/imgui/wiki/Software-using-dear-imgui) - [User quotes](https://github.com/ocornut/imgui/wiki/Quotes) |
 
 ### The Pitch
 
-Dear ImGui is a **bloat-free graphical user interface library for C++**. It outputs optimized vertex buffers that you can render anytime in your 3D-pipeline-enabled application. It is fast, portable, renderer agnostic, and self-contained (no external dependencies).
+Vanadium ImGui is a **bloat-free graphical user interface library for C++** used by the Titan Engine. It outputs optimized vertex buffers that you can render anytime in your 3D-pipeline-enabled application. It is fast, portable, renderer agnostic, and self-contained (no external dependencies).
 
 Dear ImGui is designed to **enable fast iterations** and to **empower programmers** to create **content creation tools and visualization / debug tools** (as opposed to UI for the average end-user). It favors simplicity and productivity toward this goal and lacks certain features commonly found in more high-level libraries.
 

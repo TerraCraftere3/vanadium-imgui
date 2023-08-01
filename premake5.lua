@@ -6,6 +6,11 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	includedirs
+	{
+		"./"
+	}
+
 	files
 	{
 		"imconfig.h",
@@ -18,7 +23,11 @@ project "ImGui"
 		"imstb_rectpack.h",
 		"imstb_textedit.h",
 		"imstb_truetype.h",
-		"imgui_demo.cpp"
+		"imgui_demo.cpp",
+		"imgui_ext/**.cpp",
+		"imgui_ext/**.h",
+		"backends/imgui_impl_opengl3.h",
+		"backends/imgui_impl_glfw.h"
 	}
 
 	filter "system:windows"
